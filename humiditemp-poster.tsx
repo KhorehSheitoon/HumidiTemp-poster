@@ -1,5 +1,5 @@
 import React from 'react';
-import { Thermometer, Droplets, Wifi, Globe, CloudLightning, AlertCircle, CheckCircle } from 'lucide-react';
+import { Thermometer, Droplets, Wifi, Globe, CloudLightning, AlertCircle, CheckCircle, Settings, Smartphone } from 'lucide-react';
 
 const HumidiTempPoster = () => {
   return (
@@ -63,8 +63,25 @@ const HumidiTempPoster = () => {
         </div>
       </div>
       
+      <div className="bg-blue-600 bg-opacity-70 p-6 rounded-lg mb-8">
+        <h3 className="text-xl font-semibold mb-4 flex items-center">
+          <Smartphone className="w-6 h-6 mr-2" />
+          User-Friendly Features
+        </h3>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="flex items-start">
+            <Settings className="w-6 h-6 mr-2 mt-1 flex-shrink-0" />
+            <p>Customizable humidity levels - set it to your preference</p>
+          </div>
+          <div className="flex items-start">
+            <Droplets className="w-6 h-6 mr-2 mt-1 flex-shrink-0" />
+            <p>LED status indicator in the app for dehumidifier activity</p>
+          </div>
+        </div>
+      </div>
+      
       <div className="mt-8 text-center">
-        <p className="text-2xl font-bold">Stay comfortable. Stay healthy. Stay informed.</p>
+        <p className="text-2xl font-bold">Stay comfortable. Stay healthy. Stay in control.</p>
         <p className="text-lg mt-2">Get your HumidiTemp today and breathe easier!</p>
       </div>
     </div>
