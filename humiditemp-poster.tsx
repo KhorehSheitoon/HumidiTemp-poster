@@ -22,7 +22,7 @@ const HumidiTempPoster = () => {
         </div>
         <div className="flex items-center">
           <Wifi className="w-12 h-12 mr-4" />
-          <p>Compatible with Blynk Smart Home</p>
+          <p>Compatible with Arduino Cloud</p>
         </div>
       </div>
       
